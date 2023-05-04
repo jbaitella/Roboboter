@@ -4,7 +4,7 @@ Dies ist eine Programmierung für den Lego ev3 Mindstorm Roboter. Das Programm d
 - TouchSensor (SensorPort.S1) 
 - ColorSensor (SensorPort.S3)
 - UltrasonicSensor (SensorPort.S4)
---
+---
 Mit dem Code und den Sensoren kann der Roboter folgendes: 
 1. Er sucht mit dem UltrasonicSensor, ob der Roboter vor ihm ist. 
 2. Falls dies nicht der Fall ist dreht er sich und wiederholt Schritt 1.

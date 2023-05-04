@@ -12,4 +12,4 @@ Mit dem Code und den Sensoren kann der Roboter folgendes:
 4. Dabei wird mit dem ColorSensor immer gemessen, ob der Roboter den Rand des Kreises wahrnimmt.
 5. Wenn er den Rand wahrnimmt, fährt er rückwärts und dreht sich und beginnt erneut die Suche.
 6. Sobald der Roboter den Gegner erfolgreich aus dem Kreis gestossen hat, kann der Touchsensor gedrückt werden.
-7. Der Roboter tanzt und spielt gleichzeitig Töne ab, bevor er sich ausschaltet. 
+7. Der Roboter macht nun einen Siegestanz, er tanzt und spielt gleichzeitig Töne ab, bevor er sich ausschaltet. 

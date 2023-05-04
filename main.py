@@ -62,10 +62,12 @@ def play_the_song():
 
 # definition des Tanz-Threads
 def dance_thread():
-        repeat 100:
-            gear.forward(geschwindigkeit)
+        repeat 50:
             gear.left(drehwinkel)
             gear.right(drehwinkel)
+            gear.left(500)
+            gear.right(500)
+            
             
 #definition des button-Threads
 def button_thread():
@@ -88,6 +90,7 @@ color_thread.start()
 button_thread = threading.Thread(target=button_thread)
 button_thread.start()
 
+
 while not robot.isEscapeHit():
     #Roboter suchen 
     distance = us.getDistance()
@@ -97,6 +100,7 @@ while not robot.isEscapeHit():
     else:
         gear.right(drehwinkel)
 
+        
 # Stoppen des Roboters
 gear.stop()
 robot.exit()

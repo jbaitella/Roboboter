@@ -1,5 +1,5 @@
 # Roboboter
-
+---
 Dies ist eine Programmierung für den Lego ev3 Mindstorm Roboter. Das Programm dient dazu, dass der Roboter gegen einen anderen Roboter in einem Kreis sumoringt. Dazu muss der Roboter folgende Sensoren haben: 
 - TouchSensor (SensorPort.S1) 
 - ColorSensor (SensorPort.S3)
